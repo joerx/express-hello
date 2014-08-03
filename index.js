@@ -3,7 +3,7 @@ var format = require('util').format;
 
 var app = express();
 app.get('/', function(req, res) {
-  res.status(200).json({msg: format('Hello from %s!', req.host)});
+  res.status(200).json({msg: format('Hello from %s!', req.hostname)});
 });
 
 app.get('/headers', function(req, res) {
