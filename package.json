@@ -1,0 +1,21 @@
+{
+  "name": "express-hello",
+  "version": "0.0.0",
+  "description": "Simple express sample app",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joerx/express-hello.git"
+  },
+  "author": "Joerg Henning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joerx/express-hello/issues"
+  },
+  "homepage": "https://github.com/joerx/express-hello",
+  "dependencies": {
+    "express": "^4.7.2"
+  }
+}
