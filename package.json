@@ -1,6 +1,6 @@
 {
   "name": "express-hello",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Simple express sample app",
   "main": "index.js",
   "scripts": {
