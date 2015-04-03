@@ -5,5 +5,6 @@ Just a stupid express.js hello world sample I'm using for testing server install
 # Running with Docker
 
 ```sh
-docker run -it --rm -P --name express-hello-1 express-hello
+docker build -t express-hello .
+docker run -it -p 3000:3000 --rm express-hello
 ```
