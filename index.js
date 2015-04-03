@@ -10,6 +10,10 @@ app.get('/headers', function(req, res) {
   res.status(200).json(req.headers);
 });
 
+app.get('fail', function(req, res) {
+  throw new Error('boo!');
+});
+
 app.listen(3000, function() {
   console.log('Here we go...');
 });
