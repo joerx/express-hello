@@ -1,2 +1,2 @@
-FROM express-hello-src
+FROM joerx/express-hello-src
 ENTRYPOINT ["npm", "test"]
